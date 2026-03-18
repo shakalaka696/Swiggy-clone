@@ -2,10 +2,20 @@
   "name": "swiggy-clone",
   "version": "1.0.0",
   "description": "Making a swiggy clone",
-  "main": "App.js",
   "scripts": {
-    "test": "jest"
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.16.4"
+  },
+  "dependencies": {
+    "@tailwindcss/postcss": "^4.2.1",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "react-router-dom": "^6.30.3",
+    "tailwindcss": "^4.2.1"
+  }
 }
